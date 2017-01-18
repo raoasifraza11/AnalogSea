@@ -3,8 +3,38 @@
   <head>
     <meta charset="utf-8">
     <title>AnalogSea - Home</title>
+    <!-- reset -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+
+    <!-- theme -->
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+    <header>
+      <img src="images/logo.png" alt="AnalogSea">
+    </header>
+
+    <div class="signup-box">
+      <div class="signup-header">
+        <h2>Sign up</h2>
+      </div>
+      <div class="signup-content">
+        <form action="index.html" method="post">
+          <label for="email">Email</label>
+          <input type="email" name="email" placeholder="foo@bar.com">
+          <label for="password">Password</label>
+          <input type="password" name="password" placeholder="Password">
+          <input type="submit" name="submit" value="Sign up">
+        </form>
+      </div>
+      <div class="signup-footer">
+        <a href="#">Forget password?</a>
+      </div>
+
+    </div>
+    <div class="footer">
+      <p>Already have an account? <a href="#">Log in</a></p>
+    </div>
 
   </body>
 </html>

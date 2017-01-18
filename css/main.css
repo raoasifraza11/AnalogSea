@@ -3,3 +3,113 @@
  * ThinkFul - Forms and validation
  *
  */
+ @import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+ * {
+   font-family: 'Quicksand', sans-serif;
+  }
+
+body {
+  background-color: #048AFA;
+}
+
+header {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+header img {
+  height: 35px;
+}
+
+.signup-box {
+  height: 450px;
+  width: 400px;
+  background-color: #fff;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signup-header {
+  color: #666;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.signup-header h2 {
+  font-size: 30px;
+  text-align: center;
+  text-shadow: #CCC 1px 0 10px;
+}
+
+.signup-content {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signup-content input {
+  width: 97.8%;
+  height: 44px;
+  display: block;
+  margin-bottom: 15px;
+  border-radius: 2%;
+  margin-top: 15px;
+  border: 3px solid #D6D6D6;
+  background-color: #F2F7FB;
+}
+
+.signup-content input::placeholder {
+  color: #333;
+  font-weight: bolder;
+}
+
+.signup-content label {
+  color: #333;
+  font-weight: bolder;
+}
+
+.signup-content input[type="submit"], input[type="submit"]:hover {
+  color: #fff;
+  width: 100%;
+  height: 55px;
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px #CCC;
+  background-color: #26CC6A;
+  border: 2px solid #26CC6A;
+}
+
+.signup-content input[type="submit"]:hover {
+  font-size: 25px;
+  background-color: #25CC5A;
+  border: 2px solid #25CC5A;
+}
+
+.signup-footer {
+  font-weight: bold;
+  text-align: center;
+}
+
+.signup-footer a {
+  color: #D3D3D3;
+}
+
+.signup-footer a:hover {
+  color: #333;
+}
+
+.footer {
+  color: #fff;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}
+
+.footer a {
+  color: #fff;
+  font-weight: bolder;
+}
