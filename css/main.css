@@ -115,3 +115,23 @@ header img {
 }
 
 /* 404 theme */
+
+.not-found{
+  font-size: 98px;
+  text-align: center;
+}
+
+.back-link {
+  font-size: 88px;
+  text-align: center;
+}
+.back-link a {
+  text-decoration: none;
+  cursor: not-allowed;
+}
+.back-link a::before {
+  content: "<";
+  color: red;
+  border: 2px solid blue;
+  background-color: yellow;
+}
